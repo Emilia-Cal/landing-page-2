@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-flow: column;
+    margin: 0px;
+    font-family: "Roboto";
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(108, 255, 255);
+    color:rgba(118, 8, 133, 0.74)
+}
+
+.header-links {
+    display: flex;
+    gap: 10px;
+}
+
+.headerlink {
+    text-decoration: none;
+    color: rgba(118, 8, 133, 0.74);
+}

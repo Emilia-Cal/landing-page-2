@@ -7,7 +7,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
     background-color: rgb(108, 255, 255);
@@ -26,7 +26,7 @@ body {
 
 .hero {
     display: flex;
-    padding: 20px 40px;
+    padding: 20px 20px;
     padding-bottom: 50px;
     justify-content: space-around;
     align-items: center;
@@ -36,6 +36,7 @@ body {
 
 .hero-texts {
     flex: 1;
+    max-width: 800px;
 }
 
 .hero-header {
@@ -58,4 +59,40 @@ body {
 
 .hero-img {
     flex: 1;
+    max-width: 800px;
+    border-radius: 5px;
+    margin: 10px;
+    border-color: white;
+    border-style: solid;
+}
+
+.info {
+    flex: 1;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900px;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.info-part {
+    flex: 1;
+    max-width: 200px;
+    text-align: center;
+}
+
+.info-img {
+    max-width: 200px;
+    border-radius: 5px;
+    border-color: rgb(108, 255, 255);
+    border-style: solid;
 }

@@ -48,10 +48,10 @@ body {
     font-size: 18px;
 }
 
-.hero-button {
+.hero-button, .cta-button {
     border-radius: 10px;
     font-size: 24px;
-    padding: 0px 16px;
+    padding: 5px 16px;
     background-color: rgba(195, 72, 211, 0.74);
     color: white;
     border-color: white;
@@ -81,6 +81,7 @@ body {
 .pictures {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 48px;
 }
 
@@ -119,4 +120,38 @@ body {
     font-weight: 900;
     font-size: 30px;
     margin-top: 0px;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(108, 255, 255);
+}
+
+.cta-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: pink;
+    padding: 30px 60px;
+    margin: 60px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+.cta-header {
+    margin-bottom: 0px;
+}
+
+.cta-text {
+    margin-top: 0px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
 }

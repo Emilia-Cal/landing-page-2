@@ -1,12 +1,14 @@
 body {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     margin: 0px;
     font-family: "Roboto";
+    padding: 0px;
 }
 
 .header {
     display: flex;
+    flex: auto;
     justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
@@ -30,6 +32,7 @@ body {
 }
 
 .hero {
+    flex: auto;
     display: flex;
     padding: 50px 20px;
     justify-content: space-evenly;
@@ -64,6 +67,7 @@ body {
 .hero-img {
     flex: 1;
     max-width: 500px;
+    min-width: 0px;
     border-radius: 5px;
     margin: 10px;
     border-color: white;
@@ -71,18 +75,24 @@ body {
 }
 
 .info {
-    flex: 1;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px 20px;
     background-color: white;
 }
 
 .info-header {
+    flex: auto;
     text-align: center;
     font-size: 36px;
     font-weight: 900px;
 }
 
 .pictures {
+    flex: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -103,7 +113,7 @@ body {
 }
 
 .quote {
-    flex: 1;
+    flex: auto;
     background-color: pink;
     display: flex;
     flex-flow: column;
@@ -117,6 +127,7 @@ body {
     font-size: 36px;
     font-weight: 300;
     margin-bottom: 0px;
+    padding: 10px;
 }
 
 .quote-name {
@@ -128,6 +139,7 @@ body {
 
 .cta {
     display: flex;
+    flex: auto;
     align-items: center;
     justify-content: center;
     background-color: rgb(108, 255, 255);
@@ -155,6 +167,7 @@ body {
 }
 
 .footer {
+    flex: auto;
     text-align: center;
     background-color: #1F2937;
     color: white;
